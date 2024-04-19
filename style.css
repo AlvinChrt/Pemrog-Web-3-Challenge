@@ -1,0 +1,92 @@
+.imgfooter{
+width: 100%;
+height: 20em;
+}
+
+.judul{
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    height: 30px;
+    
+    justify-content: right;
+    gap: 20px;
+}
+
+.fontheader{
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.body{
+    display: flex;
+}
+
+.biodata{
+    background-color: rgb(4, 181, 208);
+    width: 30em;
+    height: 20em;
+}
+
+.hb{
+    margin-top: 20px;
+}
+
+.h1bio, .imgbio, .pbio{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.imgbio{
+    width: 15em;
+    height: 10em;
+}
+
+.pekerjaan{
+    margin-left: 50px;
+}
+
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: rgb(4, 181, 208);
+}
+
+.tahun{
+    width: 70px;
+    text-align: left;
+}
+
+.pkj{
+    width: 200px;
+    text-align: left;
+}
+
+.pss{
+    width: 180px;
+    text-align: left;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 30px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
